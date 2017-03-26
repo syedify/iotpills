@@ -1,0 +1,40 @@
+﻿<Window x:Class="HackathonApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HackathonApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="C:/Users/Owner/Pictures/Pharmacy.jpg" Stretch="UniformToFill" Opacity="0.20" />
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"  />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"  />
+            <RowDefinition Height="*"  />
+            <RowDefinition Height="*"  />
+            <RowDefinition Height="*"  />
+            <RowDefinition Height="*"  />
+            <RowDefinition Height="*"  />
+        </Grid.RowDefinitions>
+        <TextBlock FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="0" Grid.Column="0" > Patient Name : </TextBlock>
+        <TextBox FontSize="20" Name="textbox1" HorizontalAlignment="Center" Grid.Column="1" Grid.Row ="0" Height="30" Width = "150"/>
+        <TextBlock FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="1" Grid.Column="0" > Doctor Name :</TextBlock>
+        <TextBox FontSize="20" Name="textbox2" HorizontalAlignment="Center" Grid.Column="1" Grid.Row ="1" Height= "30" Width= "150"/>
+        <TextBlock FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="2" Grid.Column="0" > Quantity :</TextBlock>
+        <TextBox FontSize="20" Name="textbox3" HorizontalAlignment="Center" Grid.Column="1" Grid.Row ="2" Height= "30" Width= "150"/>
+        <TextBlock FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="3" Grid.Column="0" > Refills :</TextBlock>
+        <TextBox FontSize="20" Name="textbox4" HorizontalAlignment="Center" Grid.Column="1" Grid.Row ="3" Height= "30" Width= "150"/>
+        <TextBlock  FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Row="4" Grid.Column="0" > Day Supply :</TextBlock>
+        <TextBox FontSize="20" Name="textbox5" HorizontalAlignment="Center" Grid.Column="1" Grid.Row ="4" Height= "30" Width= "150"/>
+
+
+        <Button HorizontalAlignment="Center"  Grid.Column="1" Grid.Row ="5"  Height="30" Width="100" Content="Send" Click="Button_Click"/>
+    </Grid>
+</Window>
