@@ -1,0 +1,1 @@
+/mnt/f/DevLand/webportal/iotpills/fw/build/CMakeFiles/lwm2mserver.dir
