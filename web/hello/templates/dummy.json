@@ -1,0 +1,42 @@
+{
+	"manufacturer":
+	{
+		"id": "BAXTER001",
+		"timestamp" : "2014-12-05T02:18:12 +05:00",
+		
+		"latitude": -1.305406,
+		"longitude": -117.229477
+	},
+
+	"drug":
+	{
+		"name" : "Advil",
+		"expiration" : "2016-12-05T02:18:12 +05:00",
+		"strengthmg" : 25.0  
+	},
+	
+	"pharmacy":
+	{
+		"id": "SHOPPERS001",
+		"timestamp" : "2015-02-05T02:18:12 +10:00",
+		"latitude": -121.305406,
+		"longitude": 20.229477
+	},
+
+	"patient":
+	{
+		"id": "PAT001",
+		"name" : "Albert Tran",
+		"timestamp" : "2015-09-05T02:18:12 +10:00"
+	},
+
+	"doctor":
+	{
+		"id": "DOC001",
+		"name" : "Dr. Octopus",
+		"timestamp" : "2015-01-05T02:18:12 +10:00",
+		"refills" : 2,
+		"quantity" : 60,
+		"daysupply" : 30
+	}
+}
